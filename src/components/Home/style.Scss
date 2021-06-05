@@ -1,0 +1,19 @@
+
+.carousel{
+
+  $carousel-control-color:             $white;
+  $carousel-control-width:             15%;
+  $carousel-control-opacity:           .5;
+  $carousel-control-hover-opacity:     .9;
+  $carousel-control-transition:        opacity .15s ease;
+  
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+
+
+}
+
+
+
+
+
